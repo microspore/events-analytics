@@ -1,4 +1,4 @@
-import db from '../lib/db';
+import db from './events-db';
 const { OrdersNewOrder, PrimeTrialSignup, PrimeTrialOptout, Counters } = db.models.Events;
 const { LocalDate } = db.models.datatypes;
 
