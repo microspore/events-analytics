@@ -1,7 +1,7 @@
-import Koa from 'koa';
-import Router from 'koa-router';
-import stats from './routes/stats';
-import logs from './routes/logs';
+const Koa = require('koa');
+const Router = require('koa-router');
+const stats = require('./routes/stats');
+const logs = require('./routes/logs');
 
 const port = process.env.PORT || 3000;
 

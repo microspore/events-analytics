@@ -1,5 +1,5 @@
-import Router from 'koa-router';
-import utils from '../helpers';
+const Router = require('koa-router');
+const utils = require('../helpers');
 
 const logs = new Router()
 
